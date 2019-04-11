@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/Styling.css">
+    <script src="../JS/Script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" >
+        <a class="nav-link text-white" href="index.html">PAVAN JOSAN</a>
+
+        <ul class="navbar-nav ml-auto">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item text-grey" href="Goals.html">Goals</a>
+                    <a class="dropdown-item text-grey" href="Volunteering.html">Volunteering</a>
+                    <a class="dropdown-item text-grey" href="HealthandFitness.html">Health and Fitness</a>
+                    <a class="dropdown-item text-grey" href="Resume.html">Resume</a>
+                    <a class="dropdown-item text-grey" href="Services.html">Services</a>
+                    <a class="dropdown-item text-grey" href="Inspirators.html">Inspirations</a>
+
+                </div>
+            </div>
+            <li class="nav-item active">
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AboutMe.html">ABOUT</a>
+            </li>
+            <li class="dropdown">
+                <a class="nav-link" href="SIDEPROJECTS.html">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="FAQS.html">FAQS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">CONTACT</a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+
+
+<section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+    <div class="container">
+        <figure>
+            <img src="../IMAGES/Whatsup.jpeg" height="300" width="300">
+        </figure>
+        <h2>Frequently Asked Questions </h2>
+        <p>Please check these out before sending me a note. I may have covered your question already. Thanks!</p>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                    <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                            What services do you offer?
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                    <div class="panel-body px-3 mb-4">
+                        <p>I provide web design, technical writing and computer hardware services. I have adept experience in Web Design and Development using CSS, HTML, and Javascript.
+                        Technical Writing is a niche within the IT industry which is a rather critical one, I provide consulting for technical writing in businesses using my experience.
+                        </p>
+                        <ul>
+                            <li>Webstorm to implement HTML, CSS, and Javascript.</li>
+                            <li>Scalability – pay for what you need today and add-on options as you grow.</li>
+                            <li>Use of A+ guidebook to implement best policies when fixing hardware. </li>
+                            <li>Amazing support backed by a experienced IT professional at your disposal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                    <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            How easy is it to build a website with me?
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                    <div class="panel-body px-3 mb-4">
+                        <p>Building a website is extremely easy. With a working knowledge of HTML and CSS you will be able to have a site up and running in no time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                    <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                            Can you critique my product / design / marketing / something I'm working on?
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                    <div class="panel-body px-3 mb-4">
+                        <p> At this time I am only able to provide feedback for a fee.As much as I love thinking about what makes products great, how to design meaningful digital experiences, and how to bring their story to the market, I don't  have enough hours in the day to try out every beta product that comes my way. If you're interested in getting feedback on your product or pitch, and willing to put budget behind that, feel free to reach out.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                    <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                            Will you speak at my create a website / review publication / fix hardware for me?
+                        </a>
+                    </h3>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                    <div class="panel-body px-3 mb-4">
+                        <p>I love hearing about these types of projects and how I can help. Please fill out this <a href="Contact.html">contact form</a>
+                            for inquiries around speaking, writing, and illustration opportunities. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<footer class="footer">
+    <div class="container">© 2019
+        <a href="index.html">Pavan Josan
+        </a>
+    </div>
+</footer>
+
+<script src="../JS/Script.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
